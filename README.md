@@ -45,9 +45,19 @@ Led from scratch to production: product design, architecture, development and de
 
 ---
 
-## 🖥️ Hosting platform (VPS, domains, web hosting)
+## 🖥️ HostStronger — hosting platform (VPS, domains, web hosting)
 
-In a 5-developer team: domain registration and DNS zone management on a registrar API, SitePro site backup and restore, CyberPanel integration, PDF invoices and customer-area pages (Laravel 10, Vue 3 / TypeScript).
+Worked on HostStronger, a hosting platform built by a 5-developer team: automated VPS provisioning on Proxmox, Stripe subscription billing, domains, web hosting and website-building workflows, with real-time status updates (Laravel 10, Vue 3 / TypeScript).
+
+**My contributions**
+- **Domains**: registration, availability checks and domain management on a third-party registrar API
+- **DNS**: end-to-end zone management (create, list, update, reset, delete), synchronised with the local database
+- **Domain contacts**: detailed model, repository, validation, registrar sync and a typed Vue 3 / TypeScript page
+- **Websites**: SitePro site backup, restore and publishing; domains linked to sites hosted on CyberPanel
+- **Customer area**: about 10 customer pages, Sanctum login, admin "log in as customer", PDF invoice download
+- **Forms**: international phone input with country-filtered dial codes and libphonenumber validation
+
+---
 
 ## 🤖 AI proof of concept
 
@@ -57,13 +67,13 @@ Immigration document classification with OpenAI GPT-4o behind a self-hosted n8n 
 
 ### Tech stack
 **Backend:** PHP 8, Laravel, Node.js, Express, REST APIs, Redis queues
-**Frontend:** Vue 3, TypeScript, Pinia, Vite, Tailwind CSS
+**Frontend:** Vue 3, TypeScript, Pinia, Vite, Tailwind CSS, PrimeVue
 **Real-time & media:** Socket.IO, BullMQ, FFmpeg, HLS
 **Data:** PostgreSQL, MySQL, Redis, MongoDB
 **Cloud / DevOps:** AWS (S3, CloudFront), Docker, Nginx, Cloudflare, GitHub Actions
 **AI:** OpenAI API, n8n, AI-assisted development with Claude Code
 
 ### Contact
-[LinkedIn](https://www.linkedin.com/in/khalil-bouhdida-301587219) 
+[LinkedIn](https://www.linkedin.com/in/khalil-bouhdida-301587219) · khalil.bh130@gmail.com
 
 > Most of my work lives in private repositories. Happy to walk you through the architecture and code in an interview.
