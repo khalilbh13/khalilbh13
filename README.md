@@ -74,6 +74,6 @@ Immigration document classification with OpenAI GPT-4o behind a self-hosted n8n 
 **AI:** OpenAI API, n8n, AI-assisted development with Claude Code
 
 ### Contact
-[LinkedIn](https://www.linkedin.com/in/khalil-bouhdida-301587219) · khalil.bh130@gmail.com
+[LinkedIn](https://www.linkedin.com/in/khalil-bouhdida-301587219) 
 
 > Most of my work lives in private repositories. Happy to walk you through the architecture and code in an interview.
